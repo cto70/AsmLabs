@@ -1,0 +1,2 @@
+﻿  AsmTest.cpp
+C:\VSProjects\AsmTest\AsmTest\AsmTest.cpp(9,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается

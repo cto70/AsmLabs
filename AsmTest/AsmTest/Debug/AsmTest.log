@@ -1,0 +1,3 @@
+﻿  AsmTest.cpp
+C:\VSProjects\AsmTest\AsmTest\AsmTest.cpp(12,12): warning C4309: =: усечение константного значения
+  AsmTest.vcxproj -> C:\VSProjects\AsmTest\Debug\AsmTest.exe
