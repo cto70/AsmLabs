@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <iomanip>
+extern "C" void div_proc(double* number, double* res);
 void function1() {
     const int l = 7;
     int arr[l];
@@ -268,5 +269,7 @@ int main()
 {
     function1();
     function2();
-    function3(1, 1, -1, 0.1, 0.0000000001);
+    function3(1, 0, 2, 0.1, 0.0000000001);
+    double x = 6, y;
+    div_proc(&x, &y);
 }
